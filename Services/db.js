@@ -10,3 +10,4 @@ async function query (sql, params){
         await connection.end()
     }
 }
+module.exports={query}
